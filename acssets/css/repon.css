@@ -1,0 +1,36 @@
+/* pc */
+@media (min-width: 1024px) {
+
+}
+
+/* mtb */
+@media (max-width: 1023px) and (min-width: 740px) {
+
+}
+
+/* mobile */
+@media (max-width: 739px) (min-width: 640px ) {
+    .item{
+        width: 80px;
+    }
+
+    .contact .ico {
+        width: 60px;
+    }
+}
+/* màn hình 16/9  */
+@media (max-width: 400px ) {
+    .item{
+        width: 70px;
+    }
+
+    .item-img {
+        width: 66px;
+        height: 66px;
+    }
+
+
+    .contact .ico {
+        width: 60px;
+    }
+}
