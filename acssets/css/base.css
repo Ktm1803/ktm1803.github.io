@@ -1,4 +1,4 @@
-0*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -68,10 +68,22 @@
     margin: 10px 5px 0 0;
 }
 
+/* @keyframes c1 {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+} */
+
 .name{
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
+    color: rgba(red, green, blue, 90deg);
+    font-weight: bold;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* color: transparent; */
+    -webkit-background-clip: text;
     text-align: center;
+    /* animation: c1 5s linear infinite; */
+    /* background: linear-gradient(90deg, red, green, blue, red); */
 }
 
 .quote{
